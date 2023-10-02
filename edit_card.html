@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" />
+    <link rel="stylesheet" href="edit_card.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5 mx-auto" id="edit-head">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="row justify-content-center">
+                    <div id="icon-back" class="mt-1">
+                        <i class="bi bi-trash3" id="head-icon"></i>
+                    </div>
+                    <div id="icon-back" class="ms-4 mt-1">
+                        <i class="bi bi-copy"  id="head-icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="my-3 text-end ">
+                    <button id="head-btn" class="me-lg-3 me-md-3 me-5 ">Cancel</button>
+                    <button id="head-btn" class="me-lg-5 me-md-5 me-3">Save Changes</button>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 mb-5 text-start" style="width: 360px;">
+                <div id="photo-back">
+                    <img src="edit-card-img/photo.png" alt="photo" style="margin-bottom: 5%; width: 340px;">
+                </div>
+                <div class="">
+                    <img src="edit-card-img/logo.png" alt="logo" class="float-end" style="margin-top: -17%;"> 
+                    <h4>Praveenkumar</h4>
+                        <p id="work">Executive Officer</p>
+                        <p id="sale">Sales Head</p>
+                        <p id="company">ABC Company pvt Ltd</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div id="contact" class="d-flex">
+                        <img src="edit-card-img/whatsapp.png" alt="cell" id="contact-icon">
+                        <p id="contact-text">7010805798</p>
+                    </div>
+                    <div id="contact" class="d-flex mt-3">
+                        <img src="edit-card-img/mail.png" alt="cell" id="contact-icon">
+                        <p id="contact-text">praveen93@gmail.com</p>
+                    </div>
+                    <div id="contact" class="d-flex mt-3">
+                        <img src="edit-card-img/call.png" alt="cell" id="contact-icon">
+                        <p id="contact-text">Make a call</p>
+                    </div>
+                    <div id="contact" class="d-flex mt-3">
+                        <img src="edit-card-img/location.png" alt="cell" id="contact-icon">
+                        <p id="contact-text">Find My Location</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+                <div class="row ms-xl-2 ms-lg-5 ms-md-2 ms-0" id="label-card">
+                    <form action="">
+                        <label for="name" class="form-label mt-2">Label this Card</label>
+                        <input type="text" class="form-control">
+                    </form>
+                </div>
+                <div class="row ms-xl-2 ms-lg-5 ms-md-2 ms-0 mt-3" id="img-card">
+                   <div class="col mt-2">
+                        <p id="img-head">Add Images</p>
+                   </div>
+                   <div class="col text-end me-3 mt-2">
+                        <button id="change-btn">Change Layout</button>
+                   </div>
+                   <div class="row justify-content-around ">
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-3" id="change-img">
+                            <i class="bi bi-plus-lg"></i>
+                            <p id="change-img-head">Company Logo</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-3" id="change-img">
+                            <i class="bi bi-plus-lg"></i>
+                            <p id="change-img-head">Company Logo</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-3" id="change-img">
+                            <i class="bi bi-plus-lg"></i>
+                            <p id="change-img-head">Company Logo</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="row ms-xl-2 ms-lg-5 ms-md-2 ms-0 mt-3" id="color-box">
+                    <p id="img-head" class="mt-2">Colour</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

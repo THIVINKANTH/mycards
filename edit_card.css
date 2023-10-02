@@ -1,0 +1,200 @@
+#edit-head
+{
+    border-radius: 12px;
+    background-color: #f4eeeb;
+    border: 0.4px solid rgba(157, 111, 78, 0.3);
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+    color: #000;
+    font-family: Lato;
+}
+#head-icon
+{
+    overflow: hidden;
+    color: #9D6F4E;
+    display: grid;
+    font-size: 24px;
+    margin-top: 15px;
+}
+#icon-back
+{
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.22);
+    width: 54px;
+    height: 54px;
+    text-align: center;
+    
+}
+#head-btn
+{
+    border-radius: 4px;
+    border: 0.3px solid rgba(148, 148, 148, 0.9);
+    box-sizing: border-box;
+    width: 120px;
+    height: 34.3px;
+    /* padding: 10px; */
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Lato;
+    color: #000;
+}
+#head-btn:hover
+{
+    font-family: Lato;
+    color: #fff;
+    background-color: #9d6f4e;
+}
+#photo-back
+{
+    background-image: url("edit-card-img/ceo-back.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 340px;
+    height: 260px;
+}
+h4
+{
+    font-size: 20.78px;
+    letter-spacing: 0.01em;
+    line-height: 32.11px;
+    font-weight: 600;
+    font-family: Lato;
+    color: #000;
+}
+#work
+{
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    line-height: 16px;
+    font-family: Lato;
+    color: #232323;
+}
+#sale
+{
+    font-size: 17px;
+    letter-spacing: 0.01em;
+    line-height: 19px;
+    font-weight: 600;
+    font-family: Lato;
+    color: #418ace;
+}
+#company
+{
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    line-height: 14px;
+    font-family: Lato;
+    color: #808080;
+}
+#contact
+{
+    border-radius: 15.11px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 3.777777671813965px 3.78px rgba(0, 0, 0, 0.25);
+    width: 309px;
+    height: 51px;
+}
+#contact-icon
+{
+    width: 65px;
+    height: 65px;
+}
+#contact-text
+{
+    font-size: 15.11px;
+    letter-spacing: 0.01em;
+    line-height: 50.67px;
+    font-weight: 500;
+    font-family: Lato;
+    color: #5a5a5a;
+}
+#label-card
+{
+    border-radius: 8px;
+    background-color: #fffcfb;
+    height: 120px;
+    overflow: hidden;
+    font-size: 20px;
+    color: #373737;
+    font-family: Lato;
+}
+.form-label
+{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Lato;
+    color: #373737;
+    text-align: left;
+}
+.form-control
+{
+    border-radius: 8px;
+    border: 0.6px solid rgba(73, 73, 73, 0.9);
+    box-sizing: border-box;
+    height: 38.6px;
+}
+#img-card
+{
+    border-radius: 8px;
+    background-color: #fffcfb;
+    height: 230px;
+    overflow: hidden;
+    font-size: 20px;
+    color: #373737;
+    font-family: Lato;
+}
+#img-head
+{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Lato;
+    color: #373737;
+    text-align: left;
+}
+#change-btn
+{
+    border-radius: 6px;
+    border: 0.7px solid rgba(125, 125, 125, 0.9);
+    box-sizing: border-box;
+    width: 112px;
+    height: 34.7px;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Lato;
+    color: #5f5f5f;
+}
+#change-img
+{
+    border-radius: 16px;
+    background-color: #eaeaea;
+    width: 140px;
+    height: 84px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Lato;
+}
+#change-img-head
+{
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Lato;
+    color: #494949;
+}
+#color-box
+{
+    border-radius: 12px;
+    background-color: #fffcfb;
+    height: 126px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 22px;
+    color: #191919;
+    font-family: Lato;
+}
