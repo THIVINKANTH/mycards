@@ -1,0 +1,18 @@
+.navbar{
+    background-color: #F4EEEB;
+}
+.nav-link
+{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #353535;
+}
+.dropdown-item
+{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Lato;
+    color: #3f3f3f;
+}
